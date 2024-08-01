@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="cityController" class="com.joshua.traderDatabaseJdbc.Controller.CityController">
+    </bean>
+
+    <bean id="customerController" class="com.joshua.traderDatabaseJdbc.Controller.CustomerController">
+    </bean>
+
+    <bean id="employeeController" class="com.joshua.traderDatabaseJdbc.Controller.EmployeeController">
+    </bean>
+
+    <bean id="categoriesController" class="com.joshua.traderDatabaseJdbc.Controller.CategoriesController">
+    </bean>
+
+    <bean id=" productsController" class="com.joshua.traderDatabaseJdbc.Controller.ProductsController">
+    </bean>
+
+    <bean id="supplierController" class="com.joshua.traderDatabaseJdbc.Controller.SupplierController">
+    </bean>
+
+    <bean id="ordersController" class="com.joshua.traderDatabaseJdbc.Controller.OrdersController">
+    </bean>
+
+</beans>

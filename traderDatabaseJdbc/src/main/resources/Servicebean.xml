@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cityService" class="Service.CityService">
+    </bean>
+
+    <bean id="customerService" class="Service.CustomerService">
+    </bean>
+
+    <bean id="employeeService" class="Service.EmployeeService">
+    </bean>
+
+    <bean id="categoriesService" class="Service.CategoriesService">
+    </bean>
+
+    <bean id="productsService" class="Service.ProductsService">
+    </bean>
+
+    <bean id="supplierService" class="Service.SupplierService">
+    </bean>
+
+    <bean id="ordersService" class="Service.SupplierService">
+    </bean>
+
+    <bean id="orderDetailsService" class="com.joshua.traderDatabaseJdbc.Service.OrderDetailsService">
+    </bean>
+
+</beans>
